@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./src/css/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GByteGear</title>
+</head>
+<body>
+
+    <main>
+        <div id="home" class="home">
+            <img src="./src/img/avatar.png" alt="avatar" class="avatar">
+            <span class="nick">GByteGear</span>
+            <span class="name">Max Shemendiuk</span>
+            <a href="https://github.com/gbytegear">
+                <img class="github-icon" src="./src/img/github.png" alt="GitHub">
+                My profile on GitHub
+            </a>
+            <a class="send-mail" href="mailto:bytegear@ya.ru">Send mail</a>
+            <a href="#my_projects">&nbsp;▼&nbsp;</a>
+
+        </div>
+        <section>
+            <h1 id="my_projects">My projects</h1>
+            <h2 class="current">BinOM</h2>
+            <center>
+                <a href="https://github.com/gbytegear/BinOM">
+                    <img class="github-icon" src="./src/img/github.png" alt="GitHub">View on GitHub
+                </a>
+            </center>
+            <p><b>BinOM</b>(<i>Binary object model</i>) - serializtion / deserializtion data format implemnted as C++ library</p>
+            <h4>BinOM Data Types</h4>
+            <ul>
+                <li><b>byte</b> - 8 bit variable</li>
+                <li><b>word</b> - 16 bit variable</li>
+                <li><b>dword</b> - 32 bit variable</li>
+                <li><b>qword</b> - 64 bit variable</li>
+                <li><b>byte array</b> - 8 bit values array<sub>(can be interpreted as UTF-8 string)</sub></li>
+                <li><b>word array</b> - 16 bit values array<sub>(can be interpreted as UTF-16 string)</sub></li>
+                <li><b>dword array</b> - 32 bit values array</li>
+                <li><b>qword array</b> - 64 bit values array</li>
+                <li><b>array</b> - heterogeneous array</li>
+                <li><b>object</b> - heterogeneous key-value container </li>
+            </ul>
+            <h4>BinOM ToolKit</h4>
+            <ul>
+                <li><b>BinOM DataBase</b> - hierarchical database based on BinOM structure</li>
+                <li><b>BinOM Hexplorer</b> - BinOM file editor</li>
+                <li><b>BinOM Admin</b> - BinOM database administrator tool</li>
+            </ul>
+        </section>
+
+        <section>
+            <h1 id="my_skills">My skills</h1>
+            <h2>Programming languages</h2>
+            <ul>
+                <li>C++
+                    <ul>
+                        <li>C++17</li>
+                        <li>Compiler: GCC/MinGw</li>
+                        <li>Build system: Make</li>
+                        <li>Basics</li>
+                        <li>OOP</li>
+                        <li>RAII</li>
+                        <li>Metaprogramming (templates)</li>
+                        <li>STL Containers</li>
+                        <li>Iterators</li>
+                        <li>Multithreading (POSIX Threads)
+                            <ul>
+                                <li>Mutual exclusion</li>
+                                <li>Generic mutex management</li>
+                                <li>Condition variables</li>
+                                <li>Futures</li>
+                            </ul>
+                        </li>
+                        <li>Berkeley sockets (POSIX/WinSock 2)</li>
+                        <li>C-style Memory management</li>
+                        <li>Qt Framework
+                            <ul>
+                                <li>Qt Quick</li>
+                                <li>QNetwork</li>
+                                <li>QSql(SQLite)</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li>HTML / CSS / JavaScript
+                    <ul>
+                        <li>Google Chrome</li>
+                        <li>Mozilla FireFox</li>
+                        <li>ES 6</li>
+                        <li>Promises (async / await)</li>
+                        <li>HTML5 Canvas</li>
+                        <li>Node.js
+                            <ul>
+                                <li>Koa</li>
+                                <li>OAuth 2.0</li>
+                                <li>Passport</li>
+                                <li>MongoDB</li>
+                                <li>Redis</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+
+            <hr>
+            <h2>IDE's / Code Editors</h2>
+            <ul>
+                <li>Visual Studio Code</li>
+                <li>Qt Creator</li>
+            </ul>
+            
+            <hr>
+            <h2>Other Programms</h2>
+            <ul>
+                <li>Git (CLI Utilite / GitKraken)</li>
+                <li>Adobe Photoshop</li>
+                <li>Krita</li>
+                <li>Inlscape</li>
+                <li>Kdenlive</li>
+            </ul>
+
+            <hr>
+            <h2>Operation systems</h2>
+            <ul>
+                <li>Linux
+                    <ul>
+                        <li>Bash (Fish)</li>
+                        <li>Distributions:
+                            <ul> 
+                                <li>Debian</li>
+                                <li class="current">KDE Neon (Ubuntu LTS)</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li>Windows</li>
+            </ul>
+        </section>
+    </main>
+
+
+    <nav>
+        <button class="nav-open">
+            <div></div>
+            <div></div>
+            <div></div>
+        </button>
+        <a href="#home">Home</a>
+        <a href="#my_projects">My projects</a>
+        <a href="#my_skills">My skills</a>
+    </nav>
+
+
+    <script src="./src/js/main.js"></script>
+</body>
+</html>
