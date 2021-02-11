@@ -45,6 +45,7 @@
     background-color: #0000009f;
     padding: 5px;
     padding-right: .25em;
+    word-wrap: break-word;
 
     border-right: .5em solid #fbff00;
 
