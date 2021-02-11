@@ -28,8 +28,9 @@
 }
 
 body {
-    background-image: url(../img/bg.jpg);
+    background-image: url(../img/bg.jpg) #001216;
     background-attachment: fixed;
+    background-position: center;
     background-size: cover;
     color: var(--text-1);
     font-family: Decterm;
