@@ -14,7 +14,7 @@
 
 :root {
     --bg-1: #111;
-    --bg-2: #20202080;
+    --bg-2: #20202040;
     --accent: #fbff00;
     --accent-1: #2e89ff;
     --text-1: #919191;
@@ -31,8 +31,6 @@ body {
     background-image: url(../img/bg.jpg);
     background-attachment: fixed;
     background-size: cover;
-    /* background-position: center; */
-    /* background-color: var(--bg-1); */
     color: var(--text-1);
     font-family: Decterm;
     font-size: 1.5em;
@@ -40,7 +38,7 @@ body {
     overflow-x: hidden;
 }
 
-@media only screen and (max-device-width:840px) {
+@media only screen and (max-width:840px) {
     :root {
         --content-width: calc(100vw - 20px);
     }
