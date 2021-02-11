@@ -3,7 +3,7 @@
 @import "./content.css";
 
 @font-face {
-    src: url(../fnt/_decterm.ttf);
+    src: url(../fnt/decterm.ttf);
     font-family: Decterm;
 }
 
@@ -34,8 +34,4 @@ body {
     font-size: 1.5em;
     margin: 0;
     overflow-x: hidden;
-}
-
-@media only screen and (max-device-width:640px) {
-
 }
