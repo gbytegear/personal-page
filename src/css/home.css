@@ -97,32 +97,6 @@
     padding-right: 20px;
 }
 
-.home a {
-    display: inline-block;
-    color: #000000;
-    background-color: #ff9100;
-    border-radius: calc(.5em + 5px);
-    padding: 5px;
-    text-decoration: none;
-    text-shadow: none;
-    box-shadow: 0 5px 0 0 #884d00;
-    margin-bottom: 5px;
-}
-
-.home a:focus {
-    outline: none;
-    color: white;
-    background-color: #0084ff;
-    box-shadow: 0 2px 5px -2px #7dcbf8,
-                0 5px 0 0 #005688;
-}
-
-.home a:active {
-    margin-top: 5px;
-    box-shadow: none;
-    margin-bottom: 0;
-}
-
 @media print {
     .home a {box-shadow: none !important;}
     a::after {

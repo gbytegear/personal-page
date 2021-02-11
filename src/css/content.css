@@ -67,7 +67,7 @@ section hr {
                 0 3px 0 black;
 }
 
-section a {
+section a, .home a, footer a {
     display: inline-block;
     color: #000000;
     background-color: #ff9100;
@@ -79,7 +79,7 @@ section a {
     margin-bottom: 5px;
 }
 
-section a:focus {
+section a:focus, .home a:focus, footer a:focus {
     outline: none;
     color: white;
     background-color: #0084ff;
@@ -87,7 +87,7 @@ section a:focus {
                 0 5px 0 0 #005688;
 }
 
-section a:active {
+section a:active, .home a:active, footer a:active {
     margin-top: 5px;
     box-shadow: none;
     margin-bottom: 0;
@@ -113,7 +113,24 @@ section a:active {
     position: absolute;
     display: inline-block;
     background-color: var(--accent-1);
-    box-shadow: 0 5px 0 0 var(--accent-2);
+    margin-left: 5px;
+    padding: 5px;
+    font-size: 20px;
+    color: black;
+    box-shadow: none;
+    text-shadow: none;
+    border-radius: 15px;
+    top: calc(50% - 15px);
+}
+
+.todo {position: relative;}
+
+.todo::after {
+    content: "ToDo";
+    position: absolute;
+    display: inline-block;
+    background-color: var(--accent-3);
+    margin-left: 5px;
     padding: 5px;
     font-size: 20px;
     color: black;
@@ -130,9 +147,13 @@ section a:active {
 
 footer {
     width: 100vw;
-    height: 200px;
+    height: 100px;
     background-color: var(--bg-2);
     filter: drop-shadow(0 -2px 0 #444);
+
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
 }
 
 footer::before {
