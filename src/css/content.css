@@ -149,3 +149,21 @@ footer::before {
 
 @media only screen and (max-device-width:840px) {
 }
+
+@media print {
+    section a {box-shadow: none !important;}
+
+    section {
+        text-shadow: none;
+        font-family: 'Courier New', Courier, monospace;
+        filter: none;
+    }
+
+    section:not(:nth-child(2)):before {
+        display: none;
+    }
+    
+    section::after {
+        display: none;
+    }
+}

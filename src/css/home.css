@@ -40,7 +40,7 @@
 
 .home > .nick {
     font-family: SFPixelate;
-    font-size: 3em;
+    font-size: 2em;
     color: var(--accent);
     background-color: #0000009f;
     padding: 5px;
@@ -61,7 +61,7 @@
 
 .home > .name {
     font-family: SFPixelate;
-    font-size: 2em;
+    font-size: 1em;
     background-color: #0000009f;
     color: var(--accent);
     margin-bottom: 10px;
@@ -121,4 +121,11 @@
     margin-top: 5px;
     box-shadow: none;
     margin-bottom: 0;
+}
+
+@media print {
+    .home a {box-shadow: none !important;}
+    a::after {
+        content: attr("href");
+    }
 }
