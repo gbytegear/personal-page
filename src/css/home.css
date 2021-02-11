@@ -4,10 +4,9 @@
     height: 100vh;
     padding: 0;
     position: relative;
-    /* background: linear-gradient(45deg, #2600ff, #ff5100); */
-    background-image: url(../img/bg.jpg);
+    /* background-image: url(../img/bg.jpg);
     background-size: cover;
-    background-position: center;
+    background-position: center; */
 
     display: flex;
     flex-direction: column;

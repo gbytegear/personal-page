@@ -14,7 +14,7 @@
 
 :root {
     --bg-1: #111;
-    --bg-2: #222;
+    --bg-2: #20202080;
     --accent: #fbff00;
     --accent-1: #2e89ff;
     --text-1: #919191;
@@ -28,7 +28,11 @@
 }
 
 body {
-    background-color: var(--bg-1);
+    background-image: url(../img/bg.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    /* background-position: center; */
+    /* background-color: var(--bg-1); */
     color: var(--text-1);
     font-family: Decterm;
     font-size: 1.5em;
