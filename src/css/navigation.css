@@ -1,13 +1,14 @@
 nav {
     position: fixed;
-    left: -300px; top: 0;
+    /* left: -300px; */
+    top: 0;
     width: 300px;
     box-sizing: border-box;
     padding-top: 35px;
 }
 
 nav.open {
-    left: 0;
+    /* left: 0; */
 }
 
 
@@ -31,7 +32,7 @@ nav>*:not(.nav-open):nth-child(2) {transition: left .4s;}
 nav>*:not(.nav-open):nth-child(3) {transition: left .8s;}
 nav>*:not(.nav-open):nth-child(4) {transition: left .16s;}
 
-nav.open>*:not(.nav-open) {
+nav.open>*:not(.nav-open), nav>*:not(.nav-open):focus {
     left: 0;
 }
 
