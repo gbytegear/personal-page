@@ -17,13 +17,15 @@ nav>*:not(.nav-open) {
     display: inline-block;
     left: -300px;
 
-    background-color: #00000080;
+    background-color: var(--bg-2);
+    border-radius: 5px;
+    text-decoration: none;
+    padding-left: 5px; padding-right: 5px;
     border: none;
     outline: none;
     font-size: 1.5em;
     color: white;
     box-shadow: none;
-    border-radius: 0;
 
     margin: 5px;
 }
@@ -31,6 +33,7 @@ nav>*:not(.nav-open) {
 nav>*:not(.nav-open):nth-child(2) {transition: left .4s;}
 nav>*:not(.nav-open):nth-child(3) {transition: left .8s;}
 nav>*:not(.nav-open):nth-child(4) {transition: left .16s;}
+nav>*:not(.nav-open):nth-child(5) {transition: left .32s;}
 
 nav.open>*:not(.nav-open), nav>*:not(.nav-open):focus {
     left: 0;

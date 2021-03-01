@@ -14,11 +14,11 @@
 
 :root {
     --bg-1: #111;
-    --bg-2: #20202040;
+    --bg-2: #13192080;
     --accent: #fbff00;
     --accent-1: #2e89ff;
     --accent-3: #ff5100;
-    --text-1: #919191;
+    --text-1: #6a8699;
     --content-width: 840px;
 
     overflow-x: hidden !important;
