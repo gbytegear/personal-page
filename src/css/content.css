@@ -140,6 +140,24 @@ section a:active, .home a:active, footer a:active {
     top: calc(50% - 15px);
 }
 
+
+.in-test {position: relative;}
+
+.in-test::after {
+    content: "In test";
+    position: absolute;
+    display: inline-block;
+    background-color: var(--accent);
+    margin-left: 5px;
+    padding: 5px;
+    font-size: 20px;
+    color: black;
+    box-shadow: none;
+    text-shadow: none;
+    border-radius: 15px;
+    top: calc(50% - 15px);
+}
+
 .in-text-icon {
     height: 1em;
 }
