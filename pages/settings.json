@@ -1,0 +1,32 @@
+{
+  "settings": {
+    "default_page": ["Home"],
+    "default_lang": "en"
+  },
+  "navigation": {
+    "Home": {
+      "type": "md",
+      "url": "https://raw.githubusercontent.com/gbytegear/gbytegear/main/README.md",
+      "childs": {
+        "BinOM": {
+          "type": "md",
+          "url": "https://raw.githubusercontent.com/gbytegear/BinOM/dev/README.md",
+          "childs": {
+            "License": {
+              "type": "md",
+              "url": "https://raw.githubusercontent.com/gbytegear/BinOM/dev/LICENSE.md"
+            }
+          }
+        },
+        "libpmmf": {
+          "type": "md",
+          "url": "https://raw.githubusercontent.com/gbytegear/libpmmf/main/README.md"
+        },
+        "TcpServer": {
+          "type": "md",
+          "url": "https://raw.githubusercontent.com/gbytegear/TcpServer/master/README.md"
+        }
+      }
+    }
+  }
+}
