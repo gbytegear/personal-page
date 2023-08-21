@@ -1,10 +1,10 @@
 {
   "settings": {
-    "default_page": ["Home"],
+    "default_page": ["ByteGear"],
     "default_lang": "en"
   },
   "navigation": {
-    "Home": {
+    "ByteGear": {
       "type": "md",
       "url": "https://raw.githubusercontent.com/gbytegear/gbytegear/main/README.md",
       "childs": {
